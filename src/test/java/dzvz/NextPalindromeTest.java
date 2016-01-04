@@ -2,7 +2,7 @@ package dzvz;
 
 import org.junit.Test;
 
-import static dzvz.NextPalindrome.printNextPalyndrome;
+import static dzvz.NextPalindrome.printNextPalindrome;
 
 /**
  * Created by dzmirtyviarzhbitski on 1/3/16.
@@ -11,16 +11,16 @@ public class NextPalindromeTest {
 
     @Test
     public void test() {
-        printNextPalyndrome(23631L);
-        printNextPalyndrome(175L);
-        printNextPalyndrome(1221L);
-        printNextPalyndrome(999L);
-        printNextPalyndrome(9999L);
-        printNextPalyndrome(9998L);
-        printNextPalyndrome(10);
-        printNextPalyndrome(17);
-        printNextPalyndrome(555);
-        printNextPalyndrome(1);
+        printNextPalindrome(23631L);
+        printNextPalindrome(175L);
+        printNextPalindrome(1221L);
+        printNextPalindrome(999L);
+        printNextPalindrome(9999L);
+        printNextPalindrome(9998L);
+        printNextPalindrome(10);
+        printNextPalindrome(17);
+        printNextPalindrome(555);
+        printNextPalindrome(1);
     }
 
 }

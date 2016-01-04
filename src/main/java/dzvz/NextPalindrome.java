@@ -6,16 +6,14 @@ package dzvz;
 public class NextPalindrome {
 
 
-    public static void printNextPalyndrome(long value) {
+    public static void printNextPalindrome(long value) {
         System.out.println("=============");
         System.out.println(value);
-        System.out.println(new NextPolyndrom().nextPalyndrome(value));
+        System.out.println(nextPalindrome(value));
         System.out.println("=============");
     }
 
-    static class NextPolyndrom {
-
-        public Long nextPalyndrome(Long v) {
+        public static Long nextPalindrome(Long v) {
             //assume that nimbers from 1 - 10 are palyndromes
             if (v < 10) {
                 return v;
@@ -43,12 +41,12 @@ public class NextPalindrome {
                     }
                     Long value = asInt(list);
                     value += (long) Math.pow(10d, list.length - 1 - middle);
-                    return nextPalyndrome(value);
+                    return nextPalindrome(value);
                 }
             }
         }
 
-        private Long getPalindrome(Integer[] list) {
+        private static Long getPalindrome(Integer[] list) {
             for (int i = 0; i < list.length/2; i++) {
                 list[list.length - i - 1] = list[i];
             }
@@ -80,6 +78,4 @@ public class NextPalindrome {
         }
     }
 
-
-}
 
