@@ -14,7 +14,7 @@ public class NextPalindrome {
     }
 
     public static Long nextPalindrome(Long v) {
-        //assume that numbers from 1 - 10 are palyndromes
+        //assume that numbers from 1 - 10 are palindromes
         if (v < 10) {
             return v;
         }
@@ -25,7 +25,7 @@ public class NextPalindrome {
         if (palyndrome > v) {
             return palyndrome;
         } else {
-            //if pailndrome less than passes value try to increase middle element
+            //if palindrome less than passes value try to increase middle element
             int middle = list.length / 2;
             Integer middleElement = list[(middle)];
             if (middleElement < 9) {
