@@ -21,6 +21,7 @@ public class NextPalindromeTest {
         printNextPalindrome(17);
         printNextPalindrome(555);
         printNextPalindrome(1);
+        printNextPalindrome(23545);
     }
 
 }
